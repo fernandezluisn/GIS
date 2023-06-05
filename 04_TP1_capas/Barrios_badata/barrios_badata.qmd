@@ -1,0 +1,61 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.28.4-Firenze">
+  <identifier>Barrios</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ES</language>
+  <type>dataset</type>
+  <title>Barrios de la Ciudad Aut?noma de Buenos Aires</title>
+  <abstract>Delimitaci?n de los Barrios de la Ciudad de Buenos Aires modificados en base a la Ley 2094 (2006) que establece los nuevos l?mites de los mismos. Modificado a Abril de 2008, en base a la Ley 2.650/08 que establece los nuevos l?mites de Barrios. 
+
+
+
+REQUIRED: A brief narrative summary of the data set.
+
+REQUIRED: A summary of the intentions with which the data set was developed.</abstract>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address>Juan Carlos G?mez 276</address>
+      <city>Ciudad Aut?noma de Buenos Aires</city>
+      <administrativearea>Ciudad Aut?noma de Buenos Aires</administrativearea>
+      <postalcode>C.P. C1282ABF</postalcode>
+      <country>ar</country>
+    </contactAddress>
+    <name>Subgerencia de Informaci?n Geoespacial (USIG)</name>
+    <organization>Direcci?n General de Ciencias de la Informaci?n - Subsecretar?a de Pol?ticas P?blicas Basadas en Evidencia - Secretar?a de Innovaci?n y Transformaci?n Digital</organization>
+    <position></position>
+    <voice>5030-9200 int. 2243</voice>
+    <fax></fax>
+    <email>usig_info@buenosaires.gob.ar</email>
+    <role></role>
+  </contact>
+  <links>
+    <link size="" format="" name="Shapefile, dxf" type="Local Area Network" mimeType="" url="http://www.mapa.buenosaires.gob.ar - http://mapas.usig.buenosaires.gob.ar" description=""/>
+  </links>
+  <history>Originalmente el archivo fue digitalizado sobre los ejes de calle producto de la restituci?n del vuelo aerofotogram?trico de 1997 y, actualizaciones en base a los l?mites establecidos por Ordenanza N? 23.698 del 11 de junio de 1968, completada por la Ordenanza N? 26607 de 1972. Dicha Ley y sus modificatorias fueron derogadas y se redefinieron los nuevos l?mites porLey N?1777. Modificado a Abril de 2008, en base a la Ley N? 2.650/08 que establece los nuevos l?mites de Barrios. En Diciembre del 2011 se ajustaron los l?mites de cada barrio a la ?ltima versi?n del shape de calles (topolog?a). En Febrero de 2019 se ajustaron los l?mites de los barrios lindantes con el R?o de la Plata y Riachuelo en base al vuelo fotogram?trico realizado en 2017. DESCRIPCION DE CAMPOS BARRIO TIPO: Texto (50) DESCRIPCI?N: Nombre del Barrio COMUNA TIPO: Num?rico (19) DESCRIPCI?N: Nombre de la Comuna a la que pertenece PERIMETRO TIPO: num?rico (19) DESCRIPCI?N: Per?metro en metros AREA TIPO: num?rico (19) DESCRIPCI?N: ?rea en metros cuadrados OBJETO TIPO: texto (254) DESCRIPCI?N: Tipo de elemento mapeado</history>
+  <fees></fees>
+  <constraints type="Limitaciones de uso">La informaci?n deber? ser utilizada de acuerdo con los usos que marca la Ley, respetando la fuente de los datos originales. La informaci?n suministrada en formato digital es para uso personal e intransferible. Queda estrictamente prohibido cualquier aprovechamiento o explotaci?n del dise?o y los Contenidos -por cualquier medio-, con fines comerciales. Sin perjuicio de ello, la informaci?n presentada podr? ser utilizada con fines informativos e ilustrativos en el contexto de un proyecto educacional o de divulgaci?n cient?fica, y siempre que se aclare la fuente. La utilizaci?n de los Contenidos de una forma que infrinja estas las disposiciones de uso, faculta al GCBA a ejercer las acciones legales que correspondan.</constraints>
+  <constraints type="Acceso">REQUIRED: Restrictions and legal prerequisites for accessing the data set.</constraints>
+  <rights></rights>
+  <rights>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial dimensions="2" miny="-34.70529299999999751" minx="-58.53151900000000296" minz="0" maxy="-34.52648899999999799" maxz="0" crs="EPSG:4326" maxx="-58.33514999999999873"/>
+  </extent>
+</qgis>
